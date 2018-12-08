@@ -1,0 +1,15 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-airbnb"],
+  "rules": {
+    "no-any": false,
+    "quotemark": 0,
+    "prefer-array-literal": [true, { "allow-type-parameters": true }],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ]
+  }
+}
